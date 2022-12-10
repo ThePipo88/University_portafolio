@@ -1,0 +1,3 @@
+Alinear dos elementos en la misma linea: float: right;
+                                         float: left;
+                                         display: inline-block; inline-flex;

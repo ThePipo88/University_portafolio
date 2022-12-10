@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.Navbar{
+    height: 250px;
+    background-color: RGB(163, 30, 50);
+}
+
+.Navbar .Navbar-links {
+    height: 50px;
+    background-color: RGB(43, 56, 67);
+}
+
+.Navbar .Navbar-links .links{
+    height: 50px;
+    width: 55%;
+    background-color: RGB(43, 56, 67);
+    display: inline-block;
+    float: left;
+    min-width: 1040px;
+}
+
+.Navbar .Navbar-links .links .dropdown{
+    float: left;
+    margin-left: 0px;
+}
+
+.Navbar .Navbar-links .social{
+    float: right;
+    height: 50px;
+    width: 10%;
+    background-color: RGB(43, 56, 67);
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 200px;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 3px;
+    margin-right: 6px;
+  }
+
+  .dropdown { 
+    position: relative; 
+    display: inline-block; 
+  } 
+   
+  .dropbtn {  
+    background-color: RGB(43, 56, 67); 
+    color: white; 
+    padding: 16px; 
+    font-size: 17px; 
+    border: none; 
+    cursor: pointer; 
+    height: 10px;
+  } 
+
+  .dropOptions{
+    background-color: RGB(163, 30, 50); 
+    color: white; 
+    padding: 16px; 
+    font-size: 17px; 
+    border: none; 
+    cursor: pointer; 
+    height: 10px;
+  }
+  
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+   
+  .dropdown-content { 
+    display: none; 
+    position: absolute; 
+    background-color: #f9f9f9; 
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1; 
+  } 
+   
+  .dropdown-content a { 
+    color: black; 
+    padding: 12px 16px; 
+    text-decoration: none; 
+    display: block; 
+  } 
+   
+  .dropdown:hover .dropdown-content { 
+    display: block; 
+  } 
+
+  .socialIcon{
+    float: right;
+    margin-top: 10px;
+    margin-right: 5%;
+    width: 31px;
+    height: 31px;
+    background-color: RGB(65, 76, 86);
+    border-radius: 2px;
+    cursor: pointer;
+
+    transition: background 0.4s ease-in-out;
+  }
+
+  .youtube:hover{
+    transition: background 0.4s ease-in-out;
+    background-color: rgba(168,36,15,255);
+  }
+
+  .instagram:hover{
+    transition: background 0.4s ease-in-out;
+    background-color: rgba(81,127,164,255);
+  }
+
+  .twitter:hover{
+    transition: background 0.4s ease-in-out;
+    background-color: rgba(1,172,237,255);
+  }
+
+  .facebook:hover{
+    transition: background 0.4s ease-in-out;
+    background-color: rgba(58,86,152,255)
+  }
+
+  .fa-brands{
+    color: white;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+
+  .fa-solid{
+    color: white;
+  }
+
+  .logo{
+    margin-top: 30px;
+  }
+
+  .options {
+    margin-top: 10px;
+  }
+
+
